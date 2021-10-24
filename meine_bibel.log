@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.1)  24 OCT 2021 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.1)  24 OCT 2021 22:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2074,7 +2074,7 @@ Package epstopdf Info: Source file: <figures/dasAlphabet.eps>
 (epstopdf)             Command: <repstopdf --outfile=figures/dasAlphabet-eps-converted-to.pdf figures/dasAlphabet.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
-<figures/dasAlphabet-eps-converted-to.pdf, id=137, pagebox=cropbox, 2509.375pt x 516.93124pt>
+<figures/dasAlphabet-eps-converted-to.pdf, id=125, pagebox=cropbox, 2509.375pt x 516.93124pt>
 File: figures/dasAlphabet-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/dasAlphabet-eps-converted-to.pdf>
 Package pdftex.def Info: figures/dasAlphabet-eps-converted-to.pdf  used on input line 5. on input line 5.
@@ -2096,7 +2096,7 @@ Package epstopdf Info: Source file: <figures/dieHauptsatz.eps>
 (epstopdf)             Command: <repstopdf --outfile=figures/dieHauptsatz-eps-converted-to.pdf figures/dieHauptsatz.eps>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
-<figures/dieHauptsatz-eps-converted-to.pdf, id=154, pagebox=cropbox, 2160.07pt x 202.7575pt>
+<figures/dieHauptsatz-eps-converted-to.pdf, id=144, pagebox=cropbox, 2160.07pt x 202.7575pt>
 File: figures/dieHauptsatz-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/dieHauptsatz-eps-converted-to.pdf>
 Package pdftex.def Info: figures/dieHauptsatz-eps-converted-to.pdf  used on input line 77. on input line 77.
@@ -2115,7 +2115,7 @@ Package epstopdf Info: Source file: <figures/dieWortfrage.eps>
 (epstopdf)             Command: <repstopdf --outfile=figures/dieWortfrage-eps-converted-to.pdf figures/dieWortfrage.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
-<figures/dieWortfrage-eps-converted-to.pdf, id=155, pagebox=cropbox, 2196.205pt x 704.6325pt>
+<figures/dieWortfrage-eps-converted-to.pdf, id=145, pagebox=cropbox, 2196.205pt x 704.6325pt>
 File: figures/dieWortfrage-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/dieWortfrage-eps-converted-to.pdf>
 Package pdftex.def Info: figures/dieWortfrage-eps-converted-to.pdf  used on input line 85. on input line 85.
@@ -2139,7 +2139,7 @@ Package epstopdf Info: Source file: <figures/dieSatzfrage.eps>
 (epstopdf)             Command: <repstopdf --outfile=figures/dieSatzfrage-eps-converted-to.pdf figures/dieSatzfrage.eps>
 (epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
-<figures/dieSatzfrage-eps-converted-to.pdf, id=156, pagebox=cropbox, 2160.07pt x 202.7575pt>
+<figures/dieSatzfrage-eps-converted-to.pdf, id=146, pagebox=cropbox, 2160.07pt x 202.7575pt>
 File: figures/dieSatzfrage-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/dieSatzfrage-eps-converted-to.pdf>
 Package pdftex.def Info: figures/dieSatzfrage-eps-converted-to.pdf  used on input line 92. on input line 92.
@@ -2304,48 +2304,25 @@ Underfull \vbox (badness 10000) detected at line 585
 Underfull \vbox (badness 10000) detected at line 608
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
-Underfull \vbox (badness 10000) detected at line 627
- []
-
-
-Underfull \vbox (badness 10000) detected at line 637
- []
-
-
-Underfull \vbox (badness 10000) detected at line 649
- []
-
-) [11] [12
-
-
-] (./verben.tex
+) [10] (./verben.tex
 Chapter 2.
 
 Overfull \hbox (4.46852pt too wide) in paragraph at lines 1--1
 |\T1/fos/b/cl/25 Verbale Kon-ju-ga-tio-nen / Con-jun-gações
  []
 
-
-Underfull \vbox (badness 10000) detected at line 13
- []
-
-) [13
-
-] [14
+[11
 
 
-]
+
+]) [12]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
  (./meine_bibel.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 338.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
 Package rerunfilecheck Info: File `meine_bibel.out' has not changed.
-(rerunfilecheck)             Checksum: C17FCAA50C494535772AAFD990585B25;1508.
+(rerunfilecheck)             Checksum: 326D9650D4A238ADBF0B2B943B2B886A;1323.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2356,18 +2333,18 @@ Package logreq Info: Writing requests to 'meine_bibel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50651 strings out of 492990
- 956957 string characters out of 6136334
- 1584319 words of memory out of 5000000
- 53272 multiletter control sequences out of 15000+600000
- 595974 words of font info for 129 fonts, out of 8000000 for 9000
+ 50653 strings out of 492990
+ 956809 string characters out of 6136334
+ 1583911 words of memory out of 5000000
+ 53275 multiletter control sequences out of 15000+600000
+ 595603 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,21n,92p,10458b,1658s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,21n,92p,10458b,1638s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/opensans/opensans-04.enc}{c:/texlive/2017/texmf-dist/fonts/enc/dvips/opensans/opensans-03.enc}{c:/texlive/2017/texmf-dist/fonts/enc/dvips/opensans/opensans-02.enc}{c:/texlive/2017/texmf-dist/fonts/enc/dvips/opensans/opensans-01.enc}<c:/texlive/2017/texmf-dist/fonts/type1/public/opensans/OpenSans-Bold.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/opensans/OpenSans-BoldItalic.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/opensans/OpenSans-Italic.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/opensans/OpenSans-Regular.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/opensans/OpenSans-Semibold.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on meine_bibel.pdf (20 pages, 180270 bytes).
+Output written on meine_bibel.pdf (18 pages, 178448 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 291 compressed objects within 3 object streams
- 75 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 267 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
