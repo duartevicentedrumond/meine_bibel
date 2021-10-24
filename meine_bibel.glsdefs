@@ -1,0 +1,180 @@
+\ifglsentryexists{version control}{}%
+{%
+\gls@defglossaryentry{version control}%
+{%
+name={version control},%
+sort={version control},%
+type={main},%
+first={version control},%
+firstplural={version controls},%
+text={version control},%
+plural={version controls},%
+description={Version control systems are a category of software tools that help a software team manage changes to source code over time. Version control software keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members.},%
+descriptionplural={Version control systems are a category of software tools that help a software team manage changes to source code over time. Version control software keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{git}{}%
+{%
+\gls@defglossaryentry{git}%
+{%
+name={Git\texttrademark },%
+sort={Git\texttrademark },%
+type={main},%
+first={Git\texttrademark },%
+firstplural={Git\texttrademark s},%
+text={Git\texttrademark },%
+plural={Git\texttrademark s},%
+description={\Gls {version control} system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source-code management in software development, but it can be used to keep track of changes in any set of files.},%
+descriptionplural={\Gls {version control} system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source-code management in software development, but it can be used to keep track of changes in any set of files.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ddr}{}%
+{%
+\gls@defglossaryentry{ddr}%
+{%
+name={DDR},%
+sort={DDR},%
+type={main},%
+first={DDR},%
+firstplural={DDRs},%
+text={DDR},%
+plural={DDRs},%
+description={Dose diária recomendada},%
+descriptionplural={Dose diária recomendada},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{peg}{}%
+{%
+\gls@defglossaryentry{peg}%
+{%
+name={PEG},%
+sort={PEG},%
+type={acronym},%
+first={polyethylene glycol\glsspace (PEG)},%
+firstplural={polyethylene glycols\glsspace (PEGs)},%
+text={PEG},%
+plural={PEGs},%
+description={polyethylene glycol},%
+descriptionplural={polyethylene glycol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={polyethylene glycol},%
+longplural={polyethylene glycols},%
+short={PEG},%
+shortplural={PEGs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sls}{}%
+{%
+\gls@defglossaryentry{sls}%
+{%
+name={SLS},%
+sort={SLS},%
+type={acronym},%
+first={sodium lauryl sulfate\glsspace (SLS)},%
+firstplural={sodium lauryl sulfates\glsspace (SLSs)},%
+text={SLS},%
+plural={SLSs},%
+description={sodium lauryl sulfate},%
+descriptionplural={sodium lauryl sulfate\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={sodium lauryl sulfate},%
+longplural={sodium lauryl sulfates},%
+short={SLS},%
+shortplural={SLSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sles}{}%
+{%
+\gls@defglossaryentry{sles}%
+{%
+name={SLES},%
+sort={SLES},%
+type={acronym},%
+first={sodium laureth sulfate\glsspace (SLES)},%
+firstplural={sodium laureth sulfates\glsspace (SLESs)},%
+text={SLES},%
+plural={SLESs},%
+description={sodium laureth sulfate},%
+descriptionplural={sodium laureth sulfate\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={sodium laureth sulfate},%
+longplural={sodium laureth sulfates},%
+short={SLES},%
+shortplural={SLESs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

@@ -1,0 +1,107 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"latex-workshop.latex.tools": [
+			{
+				"name": "latexmk",
+				"command": "latexmk",
+				"args": [
+					"-synctex=1",
+					"-interaction=nonstopmode",
+					"-file-line-error",
+					"-pdf",
+					"%DOC%"
+				]
+			},
+			{
+				"name": "pdflatex",
+				"command": "pdflatex",
+				"args": [
+					"-synctex=1",
+					"-interaction=nonstopmode",
+					"-file-line-error",
+					"%DOC%"
+				]
+			},
+			{
+				"name": "makeindex",
+				"command": "makeindex",
+				"args": [
+					"%DOCFILE%.nlo",
+					"-s",
+					"nomencl.ist", 
+					"-o",
+					"%DOCFILE%.nls"
+				]
+			},
+			{
+				"name": "makeglossary",
+				"command": "makeglossaries",
+				"args": [
+					"%DOCFILE%"
+				]
+			},
+			{
+				"name": "bibtex",
+				"command": "biber",
+				"args": [
+					"%DOC%"
+				]
+			}
+		],
+		"latex-workshop.latex.recipes": [
+			{
+				"name": "build",
+				"tools": [
+                    "pdflatex",
+                    "makeglossary",
+                    "pdflatex"
+				]
+			}
+        ],
+        "latex-workshop.latex.clean.fileTypes": [
+			"*.ist"
+        ],
+        "files.associations": {
+            "cmath": "cpp",
+            "cstddef": "cpp",
+            "cstdint": "cpp",
+            "cstdio": "cpp",
+            "cstdlib": "cpp",
+            "cstring": "cpp",
+            "cwchar": "cpp",
+            "exception": "cpp",
+            "initializer_list": "cpp",
+            "ios": "cpp",
+            "iosfwd": "cpp",
+            "iostream": "cpp",
+            "istream": "cpp",
+            "limits": "cpp",
+            "memory": "cpp",
+            "new": "cpp",
+            "ostream": "cpp",
+            "stdexcept": "cpp",
+            "streambuf": "cpp",
+            "system_error": "cpp",
+            "type_traits": "cpp",
+            "typeinfo": "cpp",
+            "utility": "cpp",
+            "xfacet": "cpp",
+            "xiosbase": "cpp",
+            "xlocale": "cpp",
+            "xlocinfo": "cpp",
+            "xlocnum": "cpp",
+            "xmemory": "cpp",
+            "xmemory0": "cpp",
+            "xstddef": "cpp",
+            "xstring": "cpp",
+            "xtr1common": "cpp",
+            "xutility": "cpp"
+        },
+        "python.pythonPath": "C:\\Python37\\python.exe"
+    }
+}

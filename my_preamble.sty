@@ -1,0 +1,30 @@
+% Declare that this style file requires at least LaTeX version 2e.
+\NeedsTeXFormat{LaTeX2e}
+
+% Provide the name of your page, the date it was last updated, and a comment about what it's used for
+\ProvidesPackage{my_preamble}[2017/12/14 duarte vicente drumond custom latex]
+    
+    \newcommand{\horizontalline}[0]{\vspace{5pt}{\color{light_gray}\noindent\rule{\linewidth}{0.5pt}\par}}
+    
+    \newcommand{\dline}[0]{\vspace{5pt}{\color{light_gray}\noindent\hdashrule[0.5ex]{\linewidth}{0.5pt}{2pt}\par}}
+    
+    \newcommand{\eq}[3]{{\color{#2}{\setlength{\mathindent}{#1pt}\begin{equation*}\begin{aligned}#3\end{aligned}\end{equation*}}}}
+    
+    \newcommand{\nota}[3]{{\color{#1}\begin{addmargin}[#2pt]{0\linewidth}#3\end{addmargin}}}
+    
+    \newcommand{\caixa}[2]{\begin{minipage}{\linewidth}
+        \begin{multicols*}{#1}
+            #2
+        \end{multicols*}
+    \end{minipage}}
+    
+    \newcommand{\cbox}[3]{
+        \eq{0}{honey_gold}{
+            &{\color{#1}\boxed{
+                #2
+            }}\\
+            &#3
+        }
+    }
+
+\endinput
