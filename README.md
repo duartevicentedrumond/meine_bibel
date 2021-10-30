@@ -16,8 +16,6 @@ This doccument aims to summarize several German Language topics in order to be a
 
 ## Authors
 
-Name        
-------------- 
 Duarte Vicente Drumond
 
 
