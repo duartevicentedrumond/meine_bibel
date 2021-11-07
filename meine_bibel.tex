@@ -100,17 +100,8 @@
 
 %text setting
     \usepackage[verbose, right=25mm, bottom=25mm, left=25mm, top=20mm,marginparwidth=3cm]{geometry} %set margins
-    \usepackage[defaultsans]{opensans} %font-family and size
-        \renewcommand{\sfdefault}{fos} %define font Open Sans (fos) as the default sans serif font family
-        \renewcommand\familydefault{\sfdefault} %define default font family as sans serif font family
-        \def\chapterfont{\usefont{T1}{fos}{b}{cl}\fontsize{25pt}{25pt}\selectfont}
-        \def\sectionfont{\usefont{T1}{fos}{b}{cl}\fontsize{15pt}{15pt}\selectfont}
-        \def\subsectionfont{\usefont{T1}{fos}{b}{cl}\fontsize{12pt}{12pt}\selectfont}
-        \def\subsubsectionfont{\usefont{T1}{fos}{b}{cl}\fontsize{10pt}{10pt}\selectfont}
-        \def\Big{\usefont{T1}{fos}{b}{cl}\fontsize{16pt}{16pt}\selectfont}
-        \def\normal{\usefont{T1}{fos}{m}{m}\fontsize{10pt}{10pt}\selectfont}
-        \def\normalbold{\usefont{T1}{fos}{b}{m}\fontsize{10pt}{10pt}\selectfont}
-        \def\normalitalic{\usefont{T1}{fos}{m}{it}\fontsize{10pt}{10pt}\selectfont}
+    \usepackage[default,oldstyle,scale=0.95]{opensans} % Alternatively use the option 'defaultsans' instead of 'default' to replace the sans serif font only.
+    \usepackage[T1]{fontenc}
         \DeclareRobustCommand\ebseries{\fontseries{eb}\selectfont}
         \DeclareRobustCommand\sbseries{\fontseries{sb}\selectfont}
         \DeclareRobustCommand\ltseries{\fontseries{l}\selectfont}
@@ -140,10 +131,39 @@
         \setlength{\parindent}{20mm} %?
     
     %titles format
-        \titleformat{\chapter}[display]{\sffamily}{}{25pt}{\chapterfont} %chapter title appearance
-        \titleformat{\section}{\sectionfont}{\thesection}{15pt}{} %section title appearance
-        \titleformat{\subsection}{\subsectionfont}{\thesubsection}{12pt}{} %subsection title appearance
-        \titleformat{\subsubsection}{\subsubsectionfont}{\thesubsubsection}{10pt}{} %subsection title appearance
+        \usepackage{titlesec}
+        \titleformat
+            {\chapter} % command
+            [display] % shape
+            {\bfseries\huge} % format
+            { } % label
+            { 1ex } % space between title number and text
+            { } % before-code
+            [ ] % after-code
+        \titleformat
+            {\section} % command
+            [hang] % shape
+            {\bfseries\LARGE} % format
+            {\thesection} % label
+            { 1ex } % space between title number and text
+            { } % before-code
+            [ ] % after-code
+        \titleformat
+            {\subsection} % command
+            [hang] % shape
+            {\bfseries\large} % format
+            {\thesubsection} % label
+            { 1ex } % space between title number and text
+            { } % before-code
+            [ ] % after-code
+        \titleformat
+            {\subsubsection} % command
+            [hang] % shape
+            {\bfseries\normalsize} % format
+            {\thesubsubsection} % label
+            { 1ex } % space between title number and text
+            { } % before-code
+            [ ] % after-code
     \usepackage{soul} %highlight text
         \DeclareRobustCommand{\hlgrey}[1]{{\sethlcolor{anti_flash_white}\hl{#1}}} %change highlight color when using \hlgrey to grey
 
@@ -165,9 +185,9 @@
     \addto\captionsportuguese{\renewcommand{\contentsname}{Índice}} %change title name in portuguese language to "índice"
     \usepackage{tocloft} %edit table of contents design
     \renewcommand{\cftdotsep}{7} %input a number for dot separation or \cftnodots to remove dots
-    \renewcommand{\cfttoctitlefont}{\Big} %change title font size, type and family
-    \renewcommand{\cftchapfont}{\normalbold} %change section font size, type and family
-    \renewcommand{\cftchappagefont}{\normalbold} %change section page number font size, type and family
+    \renewcommand{\cfttoctitlefont}{\bfseries\Huge} %change title font size, type and family
+    \renewcommand{\cftchapfont}{\sbseries} %change section font size, type and family
+    \renewcommand{\cftchappagefont}{\sbseries} %change section page number font size, type and family
     \renewcommand{\cftchapaftersnumb}{ } %change space between section number and name
     %\renewcommand{\cftsecfont}{\normal} %change section font size, type and family
     %\renewcommand{\cftsecpagefont}{\normal} %change section page number font size, type and family
