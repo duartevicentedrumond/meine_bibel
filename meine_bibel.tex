@@ -68,7 +68,7 @@
     \PassOptionsToPackage{obeyspaces}{url} %respect \href spaces
     \usepackage[font={color=textcolor}]{caption} %change figures captions
     \usepackage{hyperref} %hide boxes around hyperlink
-        \hypersetup{colorlinks, %color text of links and anchors, eliminates borders around links
+        \hypersetup{colorlinks=true, %color text of links and anchors, eliminates borders around links
         linkcolor=textcolor,        %color for normal internal links
         anchorcolor=textcolor,      %color for anchor text
         citecolor=textcolor,        %color for bibliographical citations
@@ -179,7 +179,8 @@
         \renewcommand{\footrulewidth}{0pt}
         \renewcommand{\footnoterule}{}
     }
-
+    \renewcommand{\thefootnote}{\color{textcolor}[\arabic{footnote}]}
+    
 %table of contents (ToC) setting
     \addto\captionsportuguese{\renewcommand{\contentsname}{Índice}} %change title name in portuguese language to "índice"
     \usepackage{tocloft} %edit table of contents design
