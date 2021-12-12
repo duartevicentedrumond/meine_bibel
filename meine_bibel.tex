@@ -14,6 +14,7 @@
         \newrobustcmd{\iconcpp}{\includegraphics[height=10pt]{figures/icon/icon_cpp.eps}}
         \newrobustcmd{\iconmysql}{\includegraphics[height=10pt]{figures/icon/icon_mysql.eps}}
         \newrobustcmd{\iconvs}{\includegraphics[height=10pt]{figures/icon/icon_vs.eps}}
+    \usepackage{svg}
 
 %maths language
     %\usepackage[fleqn]{amsmath,empheq}
@@ -296,7 +297,7 @@
     \color{textcolor} %text color
     \pagestyle{plain} %no header, footer with centred number
     \pagenumbering{roman} %define page numbering type: roman, arabic and gobble (disable page numbering)
-    \justify %justify all document; commands: \RaggedRight, \RaggedLeft, \Centering, \justify 
+    \RaggedRight %align document text; commands: \RaggedRight, \RaggedLeft, \Centering, \justify 
 
     %Cover
         \input{capa.tex}
